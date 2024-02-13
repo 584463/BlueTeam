@@ -60,9 +60,6 @@ a:hover{
     text-transform: uppercase;
     transition: all .2s ease-in-out;
     color: #0093fd !important;
-    /*its works already but the wrong from ur browse, HUH?
-    i mean the logo
-    */
     font-weight: 700;
     font-size: 1.8rem;
 
@@ -103,17 +100,83 @@ body{
     position: relative;
 }
 
-.info {
+.our-work {
     display: flex;
     margin: 15px;
     background-color: #242323;
     color: white;
 }
-/*what about this
-what is the problem
-just the logo is black in the phone why?
-yep whait
-and the color 242323 is not from end to end!*/
-/*did u mean the text in the top of info?.....
-*/
-/* no! the 242323 color is not from the border to the border */
+
+.our-work-h1 {
+    padding: 2px;
+    margin: 6px;
+}
+
+
+
+
+.projects {
+    background-color: #242323;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.title {
+    color: white;
+}
+
+
+@media screen and (300px <  width <900px){
+    .project-card {
+        width: 310px;
+    }
+}
+
+
+.hiring {
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
