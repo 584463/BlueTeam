@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    top:0;
     width: 100%;
     overflow: hidden;
 }
@@ -36,17 +37,17 @@ body {
     font-weight: 500;
 }
 a{
-    color: #0093fd;
+    color: inherit;
     text-decoration: none;
     text-transform: uppercase;
 
 
 }
 a:visited{
-    color:#0093fd;
+    color:inherit;
 }
 a:hover{
-    color: #0093fd;
+    color: inherit;
     transform: scale(1.1);
 }
 
@@ -58,7 +59,10 @@ a:hover{
     text-decoration: none;
     text-transform: uppercase;
     transition: all .2s ease-in-out;
-    color: #0093fd;
+    color: #0093fd !important;
+    /*its works already but the wrong from ur browse, HUH?
+    i mean the logo
+    */
     font-weight: 700;
     font-size: 1.8rem;
 
@@ -82,8 +86,8 @@ a:hover{
 }
 
 .a-cont {
-    background-color: #0093fd;
     color: #000;
+    background-color: #0093fd;
     border-radius: 25px;
     padding: 5px;
     font-weight: 600;
@@ -95,12 +99,21 @@ img {
     height: 350px;
     float: center;
 }
+body{
+    position: relative;
+}
 
 .info {
     display: flex;
-    padding: 15px;
     margin: 15px;
     background-color: #242323;
-    align-items: flex-end;
     color: white;
 }
+/*what about this
+what is the problem
+just the logo is black in the phone why?
+yep whait
+and the color 242323 is not from end to end!*/
+/*did u mean the text in the top of info?.....
+*/
+/* no! the 242323 color is not from the border to the border */
