@@ -100,15 +100,91 @@ body{
     position: relative;
 }
 
-.our-work {
-    display: flex;
-    margin: 15px;
+.projects {
     background-color: #242323;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+
+
+.title {
+    color: white;
+    display: flex;
+    font-weight: 600;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3a6cf4;
+}
+
+.more-details:hover {
+    color: #601cfc;
+}
+
+
+.hiring {
     color: white;
 }
 
-.our-work-h1 {
-    padding: 2px;
-    margin: 6px;
+.now-hi {
+    padding: 10px;
+    margin: 10px;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #0093fd; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0086e6; 
+  }
