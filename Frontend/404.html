@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#0093fd",
+            "secondry": "#242424",
+            "secondry-light": "#343434",
+            "primary-dark": "#0086e6"
+          },
+        },
+      },
+    };
+  </script>
+  <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <a href="/" class="logo">BlueTeam</a>
+        <ul class="nav-items">
+          <li class="nav-li"><a class="nav-item" href="/home"><i class='bx bx-home'></i></a></li>
+          <li class="nav-li"><a class="nav-item" href="/search"><i class='bx bx-search'></i></a></li>
+          <li class="nav-li"><a class="nav-item" href="/support"><i class='bx bx-heart'></i></a></li>
+        </ul>
+      </nav>
+
+      <div class="err">
+        <br>
+
+        <h1 class="err-err">Ooops! maybe you are in wrong place :)</h1>
+        <a href="/"><button class="hover a-cont">Let's go home</button></a>
+        <br>
+        <br>
+        <br>
+        <img src="images/404.svg" alt="404">
+        <br>
+        <br>
+        <br>
+      </div>
+
+
+      
+
+  <footer class="select-none bg-secondry w-full h-[440px] sm:h-[340px] text-white">
+    <div class="flex flex-row">
+      <img src="images/BluTeam-circle.png" alt="Logo" class="m-7 h-[15%] w-[100px]"></img>
+      <h2 class="mt-8 text-primary">BlueTeam</h2>
+    </div>
+    <hr class="w-[95%] m-[2.5%] my-4 border-primary lg:w-[70%] lg:mx-[15%]" />
+    <div class="sm:hidden flex-row justify-center flex my-[10px]">
+      <a href="https://example.com" class="mx-3">
+        <FontAwesomeIcon icon={faFacebook} size="xl" />
+      </a>
+      <a href="https://example.com" class="mx-3">
+        <FontAwesomeIcon icon={faInstagram} size="xl" />
+      </a>
+      <a href="https://example.com" class="mx-3">
+        <FontAwesomeIcon icon={faXTwitter} size="xl" />
+      </a>
+    </div>
+    <div class="flex flex-row justify-evenly my-[10px] lg:w-[800px] lg:mx-[10%] 2xl:mx-[15%]">
+      <div>
+        <h3 class="text-primary text-lg">Helpfull links</h3>
+        <ul class="space-y-3 mt-4">
+          <li class="text-xs"><a href="/">home</a></li>
+          <li class="text-xs"><a href="/quran"></a></li>
+          <li class="text-xs"><a href="https://hassanah.org">hassanah</a></li>
+          <li class="text-xs"><a href="/apply">Work for us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-primary text-lg">our company</h3>
+        <ul class="space-y-3 mt-4">
+          <li class="text-xs"><a href="/about">about hassanah</a></li>
+          <li class="text-xs"><a href="/about-blueteam">about BlueTeam</a></li>
+          <li class="text-xs"><a href="/news">news</a></li>
+        </ul>
+      </div>
+      <div class="hidden sm:block">
+        <h3 class="text-primary text-lg">Suppot center</h3>
+        <ul class="space-y-3 mt-4">
+          <li class="text-xs"><a href="/support-center?request=problem">i have problem</a></li>
+          <li class="text-xs"><a href="/support-center?request=question">I have question</a></li>
+        </ul>
+      </div>
+      <div class="hidden sm:block">
+
+        <h3 class="text-primary text-lg">Polices</h3>
+        <ul class="space-y-3 mt-4">
+          <li class="text-xs"><a href="/terms">terms</a></li>
+          <li class="text-xs"><a href="/privacy">privacy</a></li>
+        </ul>
+      </div>
+      <div class="hidden sm:flex sm:flex-row">
+        <a href="https://example.com" class="mx-3">
+          <FontAwesomeIcon icon={faFacebook} size="xl" />
+        </a>
+        <a href="https://example.com" class="mx-3">
+          <FontAwesomeIcon icon={faInstagram} size="xl" />
+        </a>
+        <a href="https://example.com" class="mx-3">
+          <FontAwesomeIcon icon={faXTwitter} size="xl" />
+        </a>
+      </div>
+    </div>
+    <div class="sm:hidden flex justify-evenly my-[10px]">
+      <div>
+        <h3 class="text-primary text-lg">Suppot center</h3>
+        <ul class="space-y-3 mt-4">
+          <li class="text-xs">I have problem</li>
+          <li class="text-xs">I have question</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-primary text-lg">Polices</h3>
+        <ul class="space-y-3 mt-4">
+          <li class="text-xs"><a href="/terms">terms</a></li>
+          <li class="text-xs"><a href="/privacy">privacy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="w-[95%] m-[2.5%] my-4 border-primary lg:w-[70%] lg:mx-[15%]" />
+    <div class="flex justify-center">
+      <p class="text-xs">All right are saved to BlueTeam 2024 &copy;</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>
